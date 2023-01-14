@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
+:root {
+  --primary-color: #ff900e;
+  --text-color-dark: #131313;
+  --secondary-color: #727272;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Work Sans", sans-serif;
+  border: 1px solid tomato;
+  border-style: inset;
+}
+/* Site Container */
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+/*-------------------------------------
+       Header Menu and Hero Section
+------------------------------------ */
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  padding: 0px 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #424242;
+}
+.brand-logo {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  text-align: center;
+  color: var(--text-color-dark);
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-details {
+  margin: 150px 0px 0px 0px;
+  width: 862px;
+  height: 380px;
+  text-align: center;
+}
+.hero-details h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+}
+.hero-details p {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--secondary-color);
+}
+.hero-details button {
+  margin-top: 30px;
+  width: 180px;
+  height: 64px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+.hero img {
+  height: 100%;
+  width: 100%;
+}
+/* Responsive Code  */
+@media screen and (max-width: 556px) {
+  header {
+    padding: 0px;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .brand-logo {
+    font-weight: 700;
+    font-size: 40px;
+    width: 100vw;
+  }
+  nav ul {
+    width: 100vw;
+    overflow-x: scroll;
+  }
+  .hero-details {
+    margin-top: 50px;
+    width: 100vw;
+    height: 550px;
+    padding: 10px;
+  }
+  .hero-details h1 {
+    font-size: 44px;
+  }
+  .hero img {
+    height: 100%;
+    width: 100%;
+  }
+}
+/*-------------------------------------
+       Company Details Section One
+------------------------------------ */
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-section .details {
+  max-width: 50%;
+}
+.about-section .details h1 {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 53px;
+}
+.about-section .details p {
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--secondary-color);
+}
+.about-section .details button {
+  margin-top: 30px;
+  width: 180px;
+  height: 64px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.about-section .images-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  gap: 10px;
+  max-width: 50%;
+}
+.about-section .images-list img {
+  width: 100%;
+  height: 100%;
+}
+/* Facts Section */
+.facts h1 {
+  font-size: 45px;
+  line-height: 53px;
+  color: var(--text-color-dark);
+}
+.facts p {
+  width: 542px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--secondary-color);
+}
+.facts .badges-list {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.badge-card {
+  width: 241.83px;
+  height: 241.83px;
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.badge-card h1 {
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+}
+.badge-card p {
+  max-width: max-content;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--secondary-color);
+}
