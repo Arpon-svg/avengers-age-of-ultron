@@ -213,3 +213,33 @@ nav ul li a {
   line-height: 23px;
   color: var(--secondary-color);
 }
+/*-------------------------------------
+       Company Details Section One
+------------------------------------ */
+.sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sponsors h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: var(--text-color-dark);
+}
+.sponsors p {
+  width: 542px;
+  font-size: 16px;
+  text-align: center;
+  color: var(--secondary-color);
+}
+.sponsors-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.sponsors-list img {
+  filter: grayscale(100%);
+}
