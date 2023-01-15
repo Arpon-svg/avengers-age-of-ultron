@@ -131,6 +131,7 @@ nav ul li a {
        Company Details Section One
 ------------------------------------ */
 .about-section {
+  margin-top: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -175,6 +176,7 @@ nav ul li a {
        Features Section
 ------------------------------------ */
 .what-you-have {
+  margin: 100px 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -262,6 +264,9 @@ nav ul li a {
   gap: 10px;
   flex-direction: column;
 }
+.badge-card:hover{
+  background-color: #ffc17a;
+}
 .badge-card h1 {
   font-size: 45px;
   line-height: 53px;
@@ -279,6 +284,7 @@ nav ul li a {
        Company Details Section One
 ------------------------------------ */
 .sponsors {
+  margin-top: 155px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -297,6 +303,7 @@ nav ul li a {
   color: var(--secondary-color);
 }
 .sponsors-list {
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -308,6 +315,9 @@ nav ul li a {
 /*-------------------------------------
        Footer
 ------------------------------------ */
+footer{
+  margin-top: 100px;
+}
 footer p {
   background: #fff4e7;
   border-radius: 8px;
