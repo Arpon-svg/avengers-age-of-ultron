@@ -171,6 +171,24 @@ nav ul li a {
   width: 100%;
   height: 100%;
 }
+/*-------------------------------------
+       Features Section
+------------------------------------ */
+.what-you-have {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feature-details{
+  max-width: 40%;
+}
+.arcitext-image{
+  max-width: 50%;
+}
+.arcitext-image img{
+  width: 100%;
+  height: 100%;
+}
 /* Facts Section */
 .facts h1 {
   font-size: 45px;
